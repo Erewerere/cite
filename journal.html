@@ -5,7 +5,7 @@
   <title>HTML5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   <link rel = "stylesheet" href = "css/pstyle.css">
+   <link rel = "stylesheet" href = "css/style.css">
    
    </head>
  <body>
@@ -15,7 +15,7 @@
 <div class = "row" >
   <DIV class =" col-3">
   <a href="main.html">
-  <img class= "  menuimg"   width ="100px"src="images.png"> </a>
+  <img alt = "Error"class= "  menuimg"   width ="100px" src="images.png"> </a>
   </div>
   <ul class="nav justify-content-center  " id = "navigation">
     <li class="nav-item">
@@ -35,7 +35,7 @@
     <div class = "cont container">
       <div class =" row">
                  <div class =  "col-12">    
-          <figure class = "fl"> <img class ="panelimg " style = "width: 20%;" src="jrnl.png" > 
+          <figure class = "fl"> <img alt = "Journal"class ="panelimg " style = "width: 20%;" src="jrnl.png"  > 
             <div  >
               <h3> Поважні читачі! </h3>
               <p  class = "text"> Для доступу до додаткових матеріалів,
@@ -49,7 +49,7 @@
                 Також ви можете задати питання стосовно випусків журналу
                   та діяльності через форму на даній сторінці. </p>
                    
-                 </p></div></figure>
+                 </div></figure>
                </div>
             </div>
            
@@ -84,12 +84,12 @@
           <div class =" row">
                      <div class =  "col-12">    
                       <h3> <b> Бажаєте щось нам написати? </b></h3>         
-                  <form action="" method ="POST" id = "form">
+                  <form action="non-reply" method ="POST" id = "form">
                     <p class = "form1" > Bаш e-mail: <input id = "email"  placeholder="email"> </p>
                      <textarea class = "form1" id= "text"   placeholder="Ваше повідомлення"></textarea> <br>
                     <input  id = "btn1"type="submit"value="Відправити"> 
                     </form>
-                    <div ID = "err1" " style = "display: none; color:red"></div>
+                    <div ID = "err1"  style = "display: none; "></div>
                    </div>
                 </div>
                
@@ -99,34 +99,36 @@
               <div class =" row">
                          <div class =  "col-12">    
                           <h3> <b> Оформлення підписки</b></h3>         
-                      <form action="" method ="POST" id = "form2">
+                      <form action="non-reply" method ="POST" id = "form2">
                         <p class = "form1" "> ФІП: <input  id = "fio"  > </p>
                         <p class = "form1"  > Адреса: <input  id = "adres"  > </p>
                         <p class = "form1" > Номер телефону: <input   id = "phone"  > </p>
                         <input id = "btn2" type="submit"value="Відправити"> 
                         </form>
-                        <div ID = "err2"  style = "display: none; color:red"></div> 
+                        <div ID = "err2"  style = "display: none; "></div> 
                        </div>
                     </div>
                    
                 </div>
             <P style= " margin-bottom: 25px;"></P>
 <!-- additional information-->
-<div class =" basement">        <FOOTER class = " foot container ">
-          <div class =" row">
-                         <div class =  "col-12" id = "add">    
-                          <p class = "about" >©2020, Science Journal. Всs права захищені. </p>
-                          <p class = "about2" >Номер телефону редакції: +380666342 </p>
-                          <p class = "about2" >    Наши соцмережі </p>
-                          <figure style = "text-align: center;" class = "about2" >  <a href ="https://telegram.org" style = "text-align: center;"  ><img width = "32px " src = "tg.png">  </a>  
-                            <a href ="https://uk-ua.facebook.com/"  ><img width = "35px " src = "fb.png">  </a>  
-                            <a href ="https://www.instagram.com"  ><img width = "35px " src = "inst.png">  </a>  
-                      </figure>
-                       </div>
-                    </div>
-        </FOOOTER> </div>
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
-        <script src="script.js"></script>     
+<div class =" basement">        
+  <div class =" row">
+                 <div class =  "col-12" id = "add">    
+                  <p class = "about" >©2020, Science Journal. Всi права захищені. </p>
+                  <p class = "about2" >Номер телефону редакції: +380666342 </p>
+                  <p class = "about2" >    Наші соцмережі </p>
+                  <figure style = "text-align: center;" class = "about2" >  <a href ="https://telegram.org" style = "text-align: center;"  ><img alt = "telegram" width = "32px " src = "tg.png">  </a>  
+                    <a href ="https://uk-ua.facebook.com/"  ><img alt = "Facebook" width = "35px " src = "fb.png">  </a>  
+                    <a href ="https://www.instagram.com"  ><img alt = "inst" width = "35px " src = "inst.png">  </a>  
+              </figure>
+               </div>
+            </div>
+</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
+        <script src="scipt/script1.js"></script>     
+
 </body>
 </html>
+        
 

@@ -7,12 +7,12 @@ jQuery(document).ready(function (e) {
 em = jQuery("#email").val().trim();
 t = jQuery("#text").val().trim();
 if(!em ){
-    jQuery('#err1').css("display", "true");
+    jQuery('#err1').css({"display": "true", "color": "red"});
     jQuery("#err1").text("Введіть email");
     return false;
     }
  if(t.length <  10){
-    jQuery('#err1').css("display", "true");
+    jQuery('#err1').css({"display": "true", "color": "red"});
         jQuery("#err1").text("Введіть більше 10 символів!");
         return false;
         }
@@ -27,17 +27,17 @@ console.log(jQuery("#fio").val());
 a = jQuery("#adres").val().trim();
 p = jQuery("#phone").val().trim();
 if(!f){
-    jQuery('#err2').css("display", "true");
+    jQuery('#err2').css({"display": "true", "color": "red"});
     jQuery("#err2").text("Введіть ФІП");
     return false;
     }
 if(!a){
-    jQuery('#err2').css("display", "true");
+    jQuery('#err2').css({"display": "true", "color": "red"});
         jQuery("#err2").text("Введіть адресу");
         return false;
         }
 if(!p ){
-    jQuery('#err2').css("display", "true");
+    jQuery('#err2').css({"display": "true", "color": "red"});
             jQuery("#err2").text("Введіть номер телефону");
             return false;
             }
@@ -46,5 +46,6 @@ if(!p ){
         jQuery("#phone").val("") ;    
         jQuery("#adres").val("") ; 
         jQuery("#fio").val("") ; 
+        
 });
 });
