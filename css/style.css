@@ -1,6 +1,7 @@
 html {
-  font-size: 14px; }
+  font-size: 14px; } 
 
+   
 @media (min-width: 720px) {
   html {
     font-size: 16px; } }
@@ -10,8 +11,32 @@ html {
 @media (min-width: 1200px) {
   html {
     font-size: 20px; } }
-body {
+BODY {
   background-color: #e7e6e6; }
+  main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  html { overflow-x: hidden;   
+  }
+  .popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    padding: 20px;
+    width: 360px;
+    margin-left: -200px;	
+    background: #fff;
+    border: 1px solid orange;
+    border-radius: 4px; 
+    z-index: 99999;
+    opacity: 1;	
+  }
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
 div.menu.container {
   text-align: center;
   font-size: large;
@@ -23,6 +48,10 @@ div.menu.container {
   padding: 0px;
   line-height: 70px;
   font-size: 15px; }
+div.row.base{
+  color: red;
+}
+
 .menuimg {
 
   margin-left: 0.2rem;
@@ -39,11 +68,12 @@ div.menu.container {
   color: #e4e3e3; }
 .headblock {
   width: 100%;
-  background-color: #3c373a;
-  margin-bottom: 10px;
-  padding-top: 10px; }
-div.cont.container {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #3c373a;  
+  padding-top: 10px; 
+  margin-bottom: 10px;}
+  
+section.cont.container {
+  
   text-indent: 3px;
   border-radius: 25px;
  
@@ -56,8 +86,7 @@ div.cont.container {
   max-width: 1120px;
   width: 100%;
   background-color: white; }
-#text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
 .panelimg {
    margin-left: 0.8rem;
   margin-right: 0.5rem;
@@ -73,7 +102,7 @@ div.cont.container {
     
   }
 .text2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
  margin-left: 1rem;
 }
 #artimg{
@@ -100,8 +129,8 @@ div.cont.container {
   .textart{
     text-align: justify;
   }
-div.cont2.container {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+section.cont2.container {
+    
     text-indent: 3px;
     border-radius: 25px;
     text-indent: 0.3rem;
@@ -134,15 +163,34 @@ div.cont2.container {
   font-size: xx-large;
   padding: 10px; }
 #add {
-  padding-top: 1rem;
-  text-align: right;
-  font-size: 1rem;
+  padding-top: 0.8rem;
+   font-size: 1.1rem;
   color: #b69b9b;
-  height: 10rem;
-  width: 100%; }
+  height: 12rem;
+  width: 100%;
+ }
 
 a {
   cursor: pointer; }
+ 
+header a:hover{
+  background: rgb(85, 105, 95);
+  opacity: .8;
+}
+
+main a:hover{
+  
+  color:rgb(3, 68, 3);
+}
+
+footer a:hover{
+  opacity: .5
+  
+}
+input:focus {
+  color: rgb(40, 38, 185);
+}
+
 
 h3 {
   font-family: 'Times New Roman', Times, serif;
@@ -151,6 +199,7 @@ h3 {
   text-align: center; }
 a.spec {
   color: #1a1ac2; }
+
 .about {
   text-align: center; }
   .about2 {
@@ -165,7 +214,35 @@ a.spec {
     
     color: rgb(73, 71, 71);
   }
-  footer a{
-    text-align: center;
-  }
+  #bmena1{  font-size: 1.4rem;
+    color: #d8d2d2;
+    }
+  #bmena {
+    
+      font-size: 1.4rem;
+    color: #d8d2d2; }
+
+    #up {
+      position: fixed; 
+      bottom: 25px; 
+      right: 70px;
+      text-align: center;
+      cursor:pointer; 
+      display:none;
+      width: 4.6rem;
+      height: 2.4rem;
+      background: #c0c0c0;
+      line-height: 2rem;
+      border-radius: 10px;
+      font-size: 1.4rem;
+    }
+    
+    #up:hover {
+
+      background: rgb(68, 66, 66);
+      color: #b69b9b;
+      opacity: .8;
+    } 
+    
+   
 /*# sourceMappingURL=pstyle.css.map */

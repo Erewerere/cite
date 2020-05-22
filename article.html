@@ -2,41 +2,44 @@
 <html>
  <head>
   <meta charset="utf-8" />
-  <title>HTML5</title>
+  <title>Статті</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel = "stylesheet" href = "css/style.css">
-   </head>
+   
+  </head>
  <body>
 
-     <div class= "headblock">
+  <header class= "headblock">
     <div  class =" menu container"  >
 <div class = "row" >
   <DIV class =" col-3">
-    <a href="main.html">
-      <img alt = "Error" class= "  menuimg"   width ="100px"src="images.png"> </a>
+    <a href="index.html">
+      <img alt = "Logo" class= "  menuimg"   width ="100px" src="images.png"> </a>
   </div>
-  <ul class="nav justify-content-center  " id = "navigation">
+  <nav class="nav justify-content-center  " id = "navigation">
     <li class="nav-item">
-        <a class="nav-link " id= "mena1" href="main.html">Головна</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id= "mena" href="article.html">Статті</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id= "mena" href="journal.html">Журнал</a>
-      </li>
-      </ul>  
+      <a class="nav-link " id= "mena1" href="index.html">Головна</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id= "mena" href="article.html">Статті</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id= "mena" href="journal.html">Журнал</a>
+    </li>
+  </nav>  
     </div>
 </div>
-  </div>
+     </header>
+
+  <main>
   <div class = " container ">
 <DIV class =" titlecont">
   Статті випусків журналу:
 </DIV>
 </div>
    <!-- The frst block  -->
-   <div class = "cont container ">
+   <section class = "cont container ">
     <div class =" row">
        
       <div class =  "col-12 " >    
@@ -54,10 +57,10 @@
                   </div></figure>
            </div>
         </div>
-             </div>
+             </section>
        <!-- Second-->
         <P style= " margin-bottom: 25px;"></P>
-        <div class = "cont container ">
+        <section class = "cont container ">
           <div class =" row">
              
             <div class =  "col-12 " >    
@@ -75,10 +78,10 @@
                  </div>
               </div>
              
-            </div>
+            </section>
               <P style= " margin-bottom: 25px;"></P>
               <!-- Third-->
-              <div class = "cont container ">
+              <section class = "cont container ">
                 <div class =" row">
                    
                   <div class =  "col-12 " >    
@@ -98,10 +101,10 @@
                        </div>
                     </div>
                    
-                  </div>
+                  </section>
                     <P style= " margin-bottom: 25px;"></P>
                     <!-- Fourth-->
-                    <div class = "cont container ">
+                    <section class = "cont container ">
                       <div class =" row">
                          
                         <div class =  "col-12 " >    
@@ -120,24 +123,39 @@
                              </div>
                           </div>
                          
-                        </div>
+                        </section>
                          
                           <P style= " margin-bottom: 25px;"></P>
+                        </main>                    
 <!-- additional information-->
-<div class =" basement">        
-  <div class =" row">
-                 <div class =  "col-12" id = "add">    
-                  <p class = "about" >©2020, Science Journal. Всi права захищені. </p>
-                  <p class = "about2" >Номер телефону редакції: +380666342 </p>
-                  <p class = "about2" >    Наші соцмережі </p>
-                  <figure style = "text-align: center;" class = "about2" >  <a href ="https://telegram.org" style = "text-align: center;"  ><img alt = "telegram" width = "32px " src = "tg.png">  </a>  
-                    <a href ="https://uk-ua.facebook.com/"  ><img alt = "Facebook" width = "35px " src = "fb.png">  </a>  
-                    <a href ="https://www.instagram.com"  ><img alt = "inst" width = "35px " src = "inst.png">  </a>  
-              </figure>
-               </div>
-            </div>
-</div>
+<footer class =" basement"> 
+  <div class =" row" >
+     <div class =  "col-12" id = "add">  
+         <nav class="nav justify-content-center " >
+                  <li class="nav-item">
+                    <a class="nav-link " id= "bmena1" href="index.html">Головна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id= "bmena" href="article.html">Статті</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id= "bmena" href="journal.html">Журнал</a>
+                  </li>
+                </nav>    
+                <p class = "about" >©2020, Science Journal. Всi права захищені. </p>
+                <p class = "about2" >Номер телефону редакції: +380666342 </p>
+                <p class = "about2" >    Наші соцмережі </p>
+                <figure style = "text-align: center;" class = "about2" >  <a href ="https://telegram.org" style = "text-align: center;"  ><img alt = "telegram" width = "32px " src = "tg.png">  </a>  
+                  <a href ="https://uk-ua.facebook.com/"  ><img alt = "Facebook" width = "35px " src = "fb.png">  </a>  
+                  <a href ="https://www.instagram.com"  ><img alt = "inst" width = "35px " src = "inst.png">  </a>  
+            </figure>
+             </div>
+          </div>
+          </div>
 
+</footer>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  
+   <script src="scipt/goup.js"></script> 
 </body>
 </html>
 

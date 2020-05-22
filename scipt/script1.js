@@ -18,6 +18,7 @@ if(!em ){
         }
 jQuery('#err1').css({"display": "true", "color": "green"});
 jQuery("#err1").text("Ваше повідомлення відправлено!");
+alert('За вашою адресою: ' + em + ' надійде відповідь на ваш повідомлення!' );
 jQuery("#text").val("") ; 
 });
 jQuery('#form2').submit(function(e){
@@ -41,11 +42,14 @@ if(!p ){
             jQuery("#err2").text("Введіть номер телефону");
             return false;
             }
-            jQuery('#err2').css({"display": "true", "color": "green"});
+        
+        jQuery('#err2').css({"display": "true", "color": "green"});
         jQuery("#err2").text("Ваше замовлення прийнято!");
+        alert('Вітаю, '+ f + " ! Ви тепер наш підписник! \n Тепер за вашою адресою надійде журнал!" );
         jQuery("#phone").val("") ;    
         jQuery("#adres").val("") ; 
         jQuery("#fio").val("") ; 
+        
         
 });
 });
